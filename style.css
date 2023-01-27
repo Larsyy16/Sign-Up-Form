@@ -1,0 +1,148 @@
+.picture {
+    background-image: url("picture.jpg");
+    background-color: #cccccc;
+    position:relative;
+    width:731px;
+    margin-right:auto;
+    margin-left:auto;
+    
+
+}
+
+.container {
+    position:absolute;
+    /* background-image: url("logo.png"); */
+    /* height:100px;
+    left:50px; */
+    top:90px;
+    /* background: black; */
+    /* opacity: 0.6; */
+    width:723px;
+    padding:4px;
+    background-color: rgba(11, 11, 11, 0.6);
+
+    
+}
+
+
+
+
+body {
+    margin:0px;
+    background-color:rgb(240, 240, 240);
+}
+
+#odin {
+    font-family:Norse;
+    position:absolute;
+    font-size:200px;
+    color:white;
+    left:270px;
+    top:-200px;
+}
+
+.logo {
+    height:200px;
+    left:100px;
+    position:relative;
+}
+
+.rightSide {
+    top:100px;
+    left:733px;
+    position:absolute;
+    margin-top:150px;
+    background-color:white;
+    padding-left:50px;
+    padding-bottom:30px;
+    padding-right:30%;
+}
+html,.picture { 
+    height:100%; 
+
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    color:white;
+    height:50px;
+    z-index:99;
+}
+
+.userlabel {
+    position:relative;
+    
+
+}
+
+.userinfo {
+    position:absolute;
+    left:300px;
+    
+}
+
+#phonenum {
+    left:207px;
+
+}
+
+#lastname {
+    left:170px;
+
+}
+#password {
+    left:180px;
+}
+
+h3 {
+    min-width: 700px;
+    max-width:1000px;
+}
+
+form {
+    margin-top:70px;
+}
+
+#fname, #lname, #email, #phone, #username, #pwd {
+    border: 1px solid #e5e7eb
+}
+
+#fname:focus, #lname:focus,#email:focus, #phone:focus, #username:focus, #pwd:focus {
+    border:1px solid blue;
+     box-shadow: 0 0 10px #719ECE; 
+
+}
+
+label {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:darkslategray;
+    font-size:12px;
+    font-weight:bold;
+}
+
+#paragraph {
+    background-color:rgb(240, 240, 240);
+    padding-right:30%;
+    position:absolute;
+    top:70px;
+    left:780px;
+}
+
+.thirdSection {
+    position:relative;
+    top:130px;
+}
+
+#create {
+    background-color:#596D48;
+    color:white;
+    font-weight:bold;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-block-end: 15px;
+    border-radius:15px;
+    text-align:center;
+}
