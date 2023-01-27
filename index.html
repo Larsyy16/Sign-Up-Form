@@ -25,7 +25,7 @@
 
 <h3>
      You <em>know</em> you want to.</h3>
-<form>
+<form onsubmit="return checkPassword(this)">
     <label for ="fname"> First name:</label>
     <label for = "lname"id ="lastname" class ="userlabel"> Last name:</label><br>
     <input type ="text" id="fname" name="fname">
@@ -38,13 +38,14 @@
 
     <label for ="username"> Password: </label>
     <label for = "pwd" id = "password" class ="userlabel" min="8"> Password Confirmation:</label> <br>
-    <input type="text" id="username"  name="username" class="error">    
+    <input type="password" id="username"  name="username" class="error">    
     <input type="password" id ="pwd" class ="userinfo error" min ="8" name="pwd"><br>
+    <label for ='pwd' id='pcom' class = 'userlabel'></label>
 
     <div class="thirdSection">
 
 
-    <input type="button" id ='create' name ='create' value="Create Account"> </input> <br><br>
+    <input type="submit" id ='create' name ='create' value="Create Account"> </input> <br><br>
     <label for ='create' id = 'createButton'> Already have an account? <b>Log in</b></label>
     </div>
 </form>
